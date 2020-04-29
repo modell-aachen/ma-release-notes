@@ -2,6 +2,7 @@ const jsdom = require('@tbranyen/jsdom');
 const {JSDOM} = jsdom;
 const minify = require('../utils/minify.js');
 const slugify = require('slugify');
+const getSize = require('image-size');
 
 module.exports = function(value, outputPath) {
   if (outputPath.endsWith('.html')) {
@@ -10,7 +11,7 @@ module.exports = function(value, outputPath) {
     });
 
     const document = DOM.window.document;
-    const articleImages = [...document.querySelectorAll('main article img', .intro img)];
+    const articleImages = [...document.querySelectorAll('main article img, .intro img')];
     const articleHeadings = [
       ...document.querySelectorAll('main article h2, main article h3')
     ];
