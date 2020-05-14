@@ -5,7 +5,7 @@ version:
   - 5.5
 ---
 
-Um Ihre Anforderungen optimal abzubilden, entwickeln wir [Q.wiki](https://www.modell-aachen.de/de/qwiki) kontinuierlich weiter: **Major-Releases** sind in einem Zyklus von 2 Jahren geplant, **Minor-Releases** in einem Zyklus von 6 Wochen. Innerhalb des aktuellen Major-Releases garantieren wir Support für die vergangenen 6 Minor-Releases. Das letzte Minor-Release wird jeweils zu einem Long-Time-Stable (LTS) Release, das wir 12 Monate nach Veröffentlichung des folgenden Major-Releases unterstützen.
+Um Ihre Anforderungen optimal abzubilden, entwickeln wir [Q.wiki](https://www.modell-aachen.de/de/qwiki) kontinuierlich weiter: **Major-Releases** sind in einem Zyklus von 2 Jahren geplant, **Minor-Releases** in einem Zyklus von 8 Wochen. Innerhalb des aktuellen Major-Releases garantieren wir Support für die vergangenen 6 Minor-Releases. Das letzte Minor-Release wird jeweils zu einem Long-Time-Stable (LTS) Release, das wir 12 Monate nach Veröffentlichung des folgenden Major-Releases unterstützen.
 
 ![Der Release-Zyklus](/images/releasezyklus_v21.png)
 
