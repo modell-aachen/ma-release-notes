@@ -15,7 +15,7 @@
       position: relative;
       /*display: flex;*/
 
-      @include apply-utility('leading', 'tight');
+      @include apply-utility("leading", "tight");
     }
 
     a:not([class]) {
@@ -26,7 +26,7 @@
       word-break: break-word;
       font-weight: 600;
       transition: all 0.2s ease-in-out;
-      @include apply-utility('leading', 'tight');
+      @include apply-utility("leading", "tight");
     }
 
     a:not([class]):hover {
@@ -76,7 +76,7 @@
     .video-player,
     .video-player + *,
     video {
-      --flow-space: #{get-size('max')};
+      --flow-space: #{get-size("max")};
     }
 
     figure,
@@ -84,7 +84,7 @@
     .video-player,
     video {
       width: 100vw;
-      max-width: map-get($metrics, 'wrap-max-width');
+      max-width: map-get($metrics, "wrap-max-width");
       margin-left: 50%; /*changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
       transform: translateX(
         -50%
@@ -109,10 +109,14 @@
       margin-bottom: get-size(500);
     }
 
+    li > * + * {
+      margin-top: get-size(800);
+    }
+
     figcaption {
       font-size: 0.8em;
       font-style: italic;
-      max-width: map-get($metrics, 'wrap-inner-max-width');
+      max-width: map-get($metrics, "wrap-inner-max-width");
       margin: 0.5rem auto 0 auto;
       padding: 0 get-size(500);
     }
@@ -130,7 +134,7 @@
 
     h2 {
       flex-shrink: 0;
-      margin-right: get-size('base');
+      margin-right: get-size("base");
       color: var(--color-dark);
     }
 
