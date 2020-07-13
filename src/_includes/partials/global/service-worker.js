@@ -5,19 +5,20 @@ const CACHE_KEYS = {
 
 // URLS that we don’t want to end up in the cache
 const EXCLUDED_URLS = [
-  'admin',
-  '.netlify',
-  'https://identity.netlify.com/v1/netlify-identity-widget.js',
-  'https://unpkg.com/netlify-cms@^2.9.3/dist/netlify-cms.js',
-  '/contact',
-  '/thank-you'
+  "admin",
+  ".netlify",
+  "https://identity.netlify.com/v1/netlify-identity-widget.js",
+  "https://unpkg.com/netlify-cms@^2.9.3/dist/netlify-cms.js",
+  "/contact",
+  "/thank-you",
+  "/"
 ];
 
 // URLS that we want to be cached when the worker is installed
-const PRE_CACHE_URLS = ['/'];
+const PRE_CACHE_URLS = ["/"];
 
 // You might want to bypass a certain host
-const IGNORED_HOSTS = ['localhost', 'unpkg.com', ];
+const IGNORED_HOSTS = ["localhost", "unpkg.com"];
 
 /**
  * Takes an array of strings and puts them in a named cache store
@@ -29,13 +30,13 @@ const addItemsToCache = function(cacheName, items = []) {
   caches.open(cacheName).then(cache => cache.addAll(items));
 };
 
-self.addEventListener('install', evt => {
+self.addEventListener("install", evt => {
   self.skipWaiting();
 
   addItemsToCache(CACHE_KEYS.PRE_CACHE, PRE_CACHE_URLS);
 });
 
-self.addEventListener('activate', evt => {
+self.addEventListener("activate", evt => {
   // Look for any old caches that don't match our set and clear them out
   evt.waitUntil(
     caches
@@ -54,7 +55,7 @@ self.addEventListener('activate', evt => {
   );
 });
 
-self.addEventListener('fetch', evt => {
+self.addEventListener("fetch", evt => {
   const {hostname} = new URL(evt.request.url);
 
   // Check we don't want to ignore this host
