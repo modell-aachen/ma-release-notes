@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Neu ab dem 24.8.2020
+title: Neu ab dem 24.08.2020
 draft: true
 date: 2020-08-24T06:00:00.000Z
 tags:
