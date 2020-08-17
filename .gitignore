@@ -9,11 +9,13 @@ node_modules
 dist 
 
 # Specifics
+*.Ulysses-Group.plist
+ma-release-notes.code-workspace
 
 # Hide design tokens
 src/scss/_tokens.scss
 
 # Hide compiled CSS
 src/_includes/assets/*
+
 src/posts/.Ulysses-Group.plist
-ma-release-notes.code-workspace
