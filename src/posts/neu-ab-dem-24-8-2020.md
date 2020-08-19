@@ -13,4 +13,4 @@ Der Workflow Generator ist jetzt auch auf Multisite-Systemen verfügbar! Sie kö
 
 ## Weitere Verbesserungen und behobene Fehler
 
-* Der Q.wikinger merkt sich jetzt, wer Sie sind – auch, wenn Sie Ihre Cookies löschen oder sich in einem anderen Browser anmelden. 
+* Der Q.wikinger merkt sich jetzt, wer Sie sind – auch, wenn Sie Ihre Cookies löschen oder sich in einem anderen Browser anmelden. Touren, die Sie schon abgeschlossen haben, werden dann nicht mehr als offen angezeigt.
