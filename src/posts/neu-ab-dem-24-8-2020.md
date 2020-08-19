@@ -10,3 +10,7 @@ Der Workflow Generator ist jetzt auch auf Multisite-Systemen verfügbar! Sie kö
 
 * **Vorlagen für Workflow Generator-Apps:** Sie können jetzt aus einer bestehenden App eine Vorlage für weitere Apps generieren. Klicken Sie dafür in der App-Konfiguration auf mehr > Als App-Vorlage speichern. Die Vorlage können Sie dann beim Anlegen einer neuen App nutzen. ![Der Dropdown, in dem eine App-Vorlage erstellt werden kann](/images/5_7_createtemplate.jpg "Unter Mehr können Sie ab jetzt die Konfiguration als App-Vorlage speichern")
 * **Zugriff auf den Workflow Generator für Nicht-Keyuser:** Bisher konnten nur KeyUser den Workflow Generator nutzen. Diese können andere Nutzerinnen und Nutzern jetzt zur Gruppe *WFGAdminGroup* hinzufügen und ihnen damit vollen Zugriff auf die Funktionen des Workflow Generators geben. Dafür wurde der Link zum Workflow Generator verschoben: Sie finden ihn nun am oberen Ende der Navigationsleiste unter „App-Verwaltung“.
+
+## Weitere Verbesserungen und behobene Fehler
+
+* Der Q.wikinger merkt sich jetzt, wer Sie sind – auch, wenn Sie Ihre Cookies löschen oder sich in einem anderen Browser anmelden. 
