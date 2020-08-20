@@ -11,11 +11,25 @@
 </p>
 {% endset %}
 
+
 {% block content %}
   <main id="main-content" tabindex="-1">
     <article class="[ post ] [ h-entry ]">
       {% include "partials/components/intro.njk" %}
+      
       <div class="[ post__body ] [ inner-wrapper ] [ leading-loose {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
+        {% if version or enterprise %}
+              <ul class="[ box-flex align-center ] [ p-category ] [ tag-list ]">
+                {% for item in version %}
+                  <li class="tag">
+                    v{{ item }}
+                  </li>
+                {% endfor %}
+                {% if enterprise %}
+                  <li class="tag">Für Enterprise freigegeben</li>
+                {% endif %}
+              </ul>
+              {% endif %}
         {{ content | safe }}
       </div>
       {% if site.enableThirdPartyComments %}
