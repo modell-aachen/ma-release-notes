@@ -109,7 +109,7 @@
       margin-bottom: get-size(500);
     }
 
-    li > * + * {
+    li > * + *:not(a) {
       margin-top: get-size(800);
     }
 
