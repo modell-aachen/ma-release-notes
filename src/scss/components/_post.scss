@@ -109,7 +109,7 @@
       margin-bottom: get-size(500);
     }
 
-    li > * + * {
+    li > * + *:not(a) {
       margin-top: get-size(800);
     }
 
@@ -126,6 +126,16 @@
       background: var(--color-dark);
       padding: get-size(700);
       font-size: get-size(500);
+    }
+
+    .tag-list > * + * {
+      margin-left: #{get-size(base)};
+    }
+  
+    .tag {
+      background: var(--color-primary-glare);
+      padding: 0.2rem 0.4rem;
+      margin-top: #{get-size(300)};
     }
   }
 

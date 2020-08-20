@@ -11,7 +11,7 @@
                 {# <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a> #}
                 {{ item.data.title }}
               </h2>
-              {% if item.data.version %}
+              {% if item.data.version or item.data.enterprise %}
             <div class="[ box-flex align-center ]">
               {# <p class="font-base text-600 weight-mid">Filed under</p> #}
               <ul class="[ box-flex align-center] [ p-category ] [ tag-list ]">
@@ -20,6 +20,9 @@
                     v{{ item }}
                   </li>
                 {% endfor %}
+                {% if item.data.enterprise %}
+                  <li class="tag">Für Enterprise freigegeben</li>
+                {% endif %}
               </ul>
           </div>
               {% endif %}
