@@ -2,6 +2,7 @@
 layout: layouts/post.njk
 title: Neu ab dem 24.08.2020
 draft: true
+enterprise: false
 date: 2020-08-24T06:00:00.000Z
 tags:
   - v5.7
