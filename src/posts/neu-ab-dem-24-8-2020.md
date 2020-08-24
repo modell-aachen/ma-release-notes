@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Neu ab dem 04.10.2020
+title: Neu ab dem 04.09.2020
 permalink: /posts/rn57/
 draft: true
 enterprise: false
