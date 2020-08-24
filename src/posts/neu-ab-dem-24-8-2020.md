@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Neu ab dem 04.10.2020
+permalink: /posts/rn57/
 draft: true
 enterprise: false
 date: 2020-09-04T06:00:00.000Z
