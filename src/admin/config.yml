@@ -80,7 +80,6 @@ collections:
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'layouts/post.njk'}
       - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Permalink (/posts/xxx/)', name: 'permalink', widget: 'string', required: false}
       - {label: 'Draft', name: 'draft', widget: 'boolean', default: true}
       - {label: 'Für Enterprise freigegeben?', name: 'enterprise', widget: 'boolean', default: false}
       - {label: 'SEO Meta Title', name: 'metaTitle', widget: 'string', required: false}
