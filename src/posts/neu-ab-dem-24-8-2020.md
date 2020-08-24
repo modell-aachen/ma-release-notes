@@ -1,9 +1,9 @@
 ---
 layout: layouts/post.njk
-title: Neu ab dem 24.08.2020
+title: Neu ab dem 04.10.2020
 draft: true
 enterprise: false
-date: 2020-08-24T06:00:00.000Z
+date: 2020-09-04T06:00:00.000Z
 tags:
   - v5.7
 ---
@@ -14,4 +14,12 @@ Der Workflow Generator ist jetzt auch auf Multisite-Systemen verfügbar! Sie kö
 
 ## Weitere Verbesserungen und behobene Fehler
 
-* Der Q.wikinger merkt sich jetzt, wer Sie sind – auch, wenn Sie Ihre Cookies löschen oder sich in einem anderen Browser anmelden. Touren, die Sie schon abgeschlossen haben, werden dann nicht mehr als offen angezeigt.
+* Der Q.wikinger merkt sich jetzt, wer Sie sind – auch, wenn Sie Ihre Cookies löschen oder sich in einem anderen Browser anmelden. Touren, die Sie schon abgeschlossen haben, werden dann nicht mehr als offen angezeigt. Dafür werden einmalig alle Touren zurückgesetzt.
+
+* Sie können Text jetzt hoch- und tiefstellen und so zum Beispiel mathematische oder chemische Formeln direkt in Q.wiki schreiben.
+
+* Die Richtlinie für neue Passwörter in Q.wiki Now! wurde angepasst. Passwörter müssen jetzt mindestens 12 Zeichen lang sein, wodurch die Sicherheit drastisch erhöht wird. Alte Passwörter müssen nicht geändert werden.
+
+* Durch einen Fehler war es zwischendurch möglich, im Workflow Generator nach Multiselect-Feldern zu sortieren. Dieser Fehler wurde behoben.
+
+* Aufgaben aus Workflow Generator-Apps wurden in der persönlichen Seite teilweise falsch dargestellt. Jetzt ist der Aufgabentyp wieder lesbar.
