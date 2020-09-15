@@ -18,6 +18,9 @@
                     v{{ item }}
                   </li>
                 {% endfor %}
+                {% if item.data.enterprise %}
+                  <li class="tag">Für Enterprise freigegeben</li>
+                {% endif %}
               </ul>
           </div>
               {% endif %}
