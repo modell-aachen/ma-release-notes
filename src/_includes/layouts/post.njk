@@ -18,15 +18,22 @@
       {% include "partials/components/intro.njk" %}
       
       <div class="[ post__body ] [ inner-wrapper ] [ leading-loose {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
-        {% if version or enterprise %}
+        {% if version or enterprise or not draft %}
               <ul class="[ box-flex align-center ] [ p-category ] [ tag-list ]">
                 {% for item in version %}
                   <li class="tag">
                     v{{ item }}
                   </li>
                 {% endfor %}
+                {% if draft %}
+                  <li class="tag">Für Now! freigegeben: ❌</li>
+                {% else %}
+                  <li class="tag">Für Now! freigegeben: ✅</li>
+                {% endif %}
                 {% if enterprise %}
-                  <li class="tag">Für Enterprise freigegeben</li>
+                  <li class="tag">Für Enterprise freigegeben: ✅</li>
+                {% else %}
+                  <li class="tag">Für Enterprise freigegeben: ❌</li>
                 {% endif %}
               </ul>
               {% endif %}
