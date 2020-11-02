@@ -18,8 +18,15 @@
                     v{{ item }}
                   </li>
                 {% endfor %}
+                {% if item.data.draft %}
+                  <li class="tag">Für Now! freigegeben: ❌</li>
+                {% else %}
+                  <li class="tag">Für Now! freigegeben: ✅</li>
+                {% endif %}
                 {% if item.data.enterprise %}
-                  <li class="tag">Für Enterprise freigegeben</li>
+                  <li class="tag">Für Enterprise freigegeben: ✅</li>
+                {% else %}
+                  <li class="tag">Für Enterprise freigegeben: ❌</li>
                 {% endif %}
               </ul>
           </div>

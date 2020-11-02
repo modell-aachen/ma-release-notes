@@ -25,8 +25,15 @@
                     v{{ item }}
                   </li>
                 {% endfor %}
+                {% if draft %}
+                  <li class="tag">Für Now! freigegeben: ❌</li>
+                {% else %}
+                  <li class="tag">Für Now! freigegeben: ✅</li>
+                {% endif %}
                 {% if enterprise %}
-                  <li class="tag">Für Enterprise freigegeben</li>
+                  <li class="tag">Für Enterprise freigegeben: ✅</li>
+                {% else %}
+                  <li class="tag">Für Enterprise freigegeben: ❌</li>
                 {% endif %}
               </ul>
               {% endif %}
