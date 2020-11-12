@@ -12,7 +12,7 @@ Sollte eine Anpassung dennoch notwendig sein, haben Sie folgende Möglichkeiten:
 * Sie können weitere Freigabestufen hinzufügen. 
 * Sie können weitere Transitionen zwischen den Freigabestufen hinzufügen. 
 * Sie können zusätzliche Benachrichtigungen an weitere Nutzer senden. 
-* Sie können die Sicht- und Bearbeitungsrechte während des Freigabeprozesses anpassen. 
+* Sie können die Bearbeitungsrechte während des Freigabeprozesses anpassen. 
 
 HIER ABBILDUNG DIE DIESE MÖGLICHKEITEN ERLÄUTERT (wird Montag nachgeliefert)
 
