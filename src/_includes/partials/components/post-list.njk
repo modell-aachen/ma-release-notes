@@ -2,42 +2,35 @@
   <section class="[ post-list ] [ pad-top-400 gap-bottom-900 ]">
     <div class="[ inner-wrapper ] [ sf-flow ]">
       {# <h2 class="[ post-list__heading ] [ text-700 md:text-800 ]">{{ postListHeading }}</h2> #}
-      <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-300 ]" reversed>
+      <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-300 ]" reversed="reversed">
         {% for item in postListItems %}
-          {% if item.date.getTime() <= global.now %}
+          {% if item
+            .date
+            .getTime() <= global
+            .now %}
             <li class="[ post-list__item ] [ sf-flow ]">
               <article class="[ release-note ] [ post ] [ h-entry ]">
-              <h2 class="font-base leading-tight weight-mid">
-                {# <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a> #}
-                {{ item.data.title }}
-              </h2>
-              {% if item.data.version or item.data.enterprise %}
-            <div class="[ box-flex align-center ]">
-              {# <p class="font-base text-600 weight-mid">Filed under</p> #}
-              <ul class="[ box-flex align-center] [ p-category ] [ tag-list ]">
-                {% for item in item.data.version %}
-                  <li class="tag">
-                    v{{ item }}
-                  </li>
-                {% endfor %}
-                {% if item.data.draft %}
-                  <li class="tag">Für Now! freigegeben: ❌</li>
-                {% else %}
-                  <li class="tag">Für Now! freigegeben: ✅</li>
+                <h2 class="font-base leading-tight weight-mid">
+                  {# <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a> #}
+                  {{ item.data.title }}
+                </h2>
+                {% if item.data.version or item.data.enterprise %}
+                  <div class="[ box-flex align-center ]">
+                    {# <p class="font-base text-600 weight-mid">Filed under</p> #}
+                    <ul class="[ box-flex align-center] [ p-category ] [ tag-list ]">
+                      {% for item in item.data.version %}
+                        <li class="tag">
+                          v{{ item }}
+                        </li>
+                      {% endfor %}
+                      {% include "partials/global/release-tags.njk" %}
+                    </ul>
+                  </div>
                 {% endif %}
-                {% if item.data.enterprise %}
-                  <li class="tag">Für Enterprise freigegeben: ✅</li>
-                {% else %}
-                  <li class="tag">Für Enterprise freigegeben: ❌</li>
-                {% endif %}
-              </ul>
-          </div>
-              {% endif %}
-              <div class="[ tag-list ]">
-              </div>
+                <div class="[ tag-list ]"></div>
                 {# <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time> #}
                 <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
-                {{ item.data.content | safe }}
+                  {{ item.data.content | safe }}
                 </div>
               </article>
             </li>
