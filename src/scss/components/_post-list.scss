@@ -28,6 +28,10 @@
     margin-left: #{get-size(base)};
   }
 
+  .tag-list {
+    align-items: baseline;
+  }
+
   .tag {
     background: var(--color-primary-glare);
     padding: 0.2rem 0.4rem;

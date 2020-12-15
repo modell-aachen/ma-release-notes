@@ -1,0 +1,9 @@
+{% set tooltipPrefix = tooltip %}
+{% if tooltipContent %}
+  {% set tooltipPrefix = tooltipContent %}
+{% endif %}
+
+<details class="tooltip post__body">
+  <summary>{{ tooltipPrefix.summary }}</summary>
+  <p>{{ tooltipPrefix.details | safe }}</p>
+</details>
