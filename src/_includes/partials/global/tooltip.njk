@@ -3,7 +3,7 @@
   {% set tooltipPrefix = tooltipContent %}
 {% endif %}
 
-<details class="tooltip">
+<details class="tooltip post__body">
   <summary>{{ tooltipPrefix.summary }}</summary>
-  <p>{{ tooltipPrefix.details }}</p>
+  <p>{{ tooltipPrefix.details | safe }}</p>
 </details>
