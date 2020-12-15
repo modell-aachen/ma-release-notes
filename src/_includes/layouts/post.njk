@@ -7,40 +7,37 @@
   {% if date %}
     <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
   {% endif %}
-  <span>— Lesezeit: etwa {{ helpers.getReadingTimeString(content) }} </span>
+  <span>— Lesezeit: etwa
+    {{ helpers.getReadingTimeString(content) }}
+  </span>
 </p>
 {% endset %}
-
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     <article class="[ post ] [ h-entry ]">
       {% include "partials/components/intro.njk" %}
-      
+
       <div class="[ post__body ] [ inner-wrapper ] [ leading-loose {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
-        {% if version or enterprise %}
-              <ul class="[ box-flex align-center ] [ p-category ] [ tag-list ]">
-                {% for item in version %}
-                  <li class="tag">
-                    v{{ item }}
-                  </li>
-                {% endfor %}
-                {% if draft %}
-                  <li class="tag">Für Now! freigegeben: ❌</li>
-                {% else %}
-                  <li class="tag">Für Now! freigegeben: ✅</li>
-                {% endif %}
-                {% if enterprise %}
-                  <li class="tag">Für Enterprise freigegeben: ✅</li>
-                {% else %}
-                  <li class="tag">Für Enterprise freigegeben: ❌</li>
-                {% endif %}
-              </ul>
-              {% endif %}
+        {% if version or enterprise %}
+          <div class="release-information">
+            <ul class="[ box-flex align-center ] [ p-category ] [ tag-list ]">
+              {% for item in version %}
+                <li class="tag">
+                  v{{ item }}
+                </li>
+              {% endfor %}
+              {% include "partials/global/release-tags.njk" %}
+            </ul>
+            {% if not item.data.enterprise %}
+              {% include "partials/global/tooltip.njk" %}
+            {% endif %}
+          </div>
+        {% endif %}
         {{ content | safe }}
       </div>
       {% if site.enableThirdPartyComments %}
-        <hr />
+        <hr/>
         <aside class="[ post__body ] [ inner-wrapper ] [ pad-bottom-900 text-500 ]">
           {% include "partials/global/third-party-comments.njk" %}
         </aside>

@@ -1,0 +1,9 @@
+{% set tooltipPrefix = tooltip %}
+{% if tooltipContent %}
+  {% set tooltipPrefix = tooltipContent %}
+{% endif %}
+
+<details class="tooltip">
+  <summary>{{ tooltipPrefix.summary }}</summary>
+  <p>{{ tooltipPrefix.details }}</p>
+</details>

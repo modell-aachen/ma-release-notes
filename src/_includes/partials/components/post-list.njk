@@ -26,6 +26,9 @@
                       {% include "partials/global/release-tags.njk" %}
                     </ul>
                   </div>
+                  {% if not item.data.enterprise %}
+                    {% include "partials/global/tooltip.njk" %}
+                  {% endif %}
                 {% endif %}
                 <div class="[ tag-list ]"></div>
                 {# <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time> #}

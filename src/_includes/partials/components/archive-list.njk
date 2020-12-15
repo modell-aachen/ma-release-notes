@@ -1,26 +1,32 @@
 {% if postListItems.length %}
   <section class="[ post-list ] [ pad-top-400 pad-bottom-800 ]">
     <div class="[ inner-wrapper ] [ sf-flow ]">
-      <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-300 ]" reversed>
+      <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-300 ]" reversed="reversed">
         {% for item in postListItems %}
-          {% if item.date.getTime() <= global.now %}
+          {% if item
+            .date
+            .getTime() <= global
+            .now %}
             <li class="[ post-list__item ]">
               <h3 class="font-base leading-tight weight-mid">
                 <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
               </h3>
-                <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
-                              {% if item.data.version %}
-            <div class="[ box-flex align-center ]">
-              {# <p class="font-base text-600 weight-mid">Filed under</p> #}
-              <ul class="[ box-flex align-center] [ p-category ] [ tag-list ]">
-                {% for item in item.data.version %}
-                  <li class="tag">
-                    v{{ item }}
-                  </li>
-                {% endfor %}
-                {% include "partials/global/release-tags.njk" %}
-              </ul>
-          </div>
+              <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+              {% if item.data.version %}
+                <div class="[ box-flex align-center ]">
+                  {# <p class="font-base text-600 weight-mid">Filed under</p> #}
+                  <ul class="[ box-flex align-center] [ p-category ] [ tag-list ]">
+                    {% for item in item.data.version %}
+                      <li class="tag">
+                        v{{ item }}
+                      </li>
+                    {% endfor %}
+                    {% include "partials/global/release-tags.njk" %}
+                  </ul>
+                </div>
+                {% if not item.data.enterprise %}
+                  {% include "partials/global/tooltip.njk" %}
+                {% endif %}
               {% endif %}
             </li>
           {% endif %}
