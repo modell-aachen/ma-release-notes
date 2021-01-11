@@ -29,7 +29,7 @@
               {% endfor %}
               {% include "partials/global/release-tags.njk" %}
             </ul>
-            {% if not item.data.enterprise %}
+            {% if not enterprise %}
               {% include "partials/global/tooltip.njk" %}
             {% endif %}
           </div>
