@@ -1,9 +1,9 @@
-{% if item.data.draft %}
+{% if item.data.draft or draft %}
   <li class="tag">❌ Noch nicht auf Now! verfügbar</li>
 {% else %}
   <li class="tag">✅ Auf Now! verfügbar</li>
 {% endif %}
-{% if item.data.enterprise %}
+{% if item.data.enterprise or enterprise %}
   <li class="tag">✅ Für Enterprise verfügbar </li>
 {% else %}
   <li class="tag">❌ Noch nicht für Enterprise verfügbar</li>
