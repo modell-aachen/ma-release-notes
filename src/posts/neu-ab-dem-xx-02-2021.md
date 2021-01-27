@@ -24,7 +24,7 @@ Bitte beachten Sie: 
 * Die vollständige Auflistung aller Freigebenden wird erst bei einer erneuten Freigabe einer Seite im Dokumentenkopf sichtbar. Eine automatische Ergänzung der Freigebenden der bestehenden, freigegebenen Versionsstände wäre nicht normkonform. 
 * Wenn Sie Ihren Freigabeprozess individuell angepasst haben, wird Ihnen die Liste aller Freigebenden möglicherweise nicht korrekt angezeigt. In diesem Fall hilft Ihnen unser Support gerne weiter. 
 
-Möchten Sie Ihren Dokumentenkopf um eine weitere Information erweitern? Dann kontaktieren Sie unseren Support, um ein weiteres Metadatum zu definieren. Alle Infos dazu finden Sie unter Anpassungsmöglichkeiten Metadaten 
+Möchten Sie Ihren Dokumentenkopf um eine weitere Information erweitern? Dann kontaktieren Sie unseren Support, um ein weiteres Metadatum zu definieren. Alle Infos dazu finden Sie unter [Anpassungsmöglichkeiten Metadaten ](https://releases.modell-aachen.de/faq/custom-metadata.html)
 
 Weitere Verbesserungen und behobene Fehler 
 
