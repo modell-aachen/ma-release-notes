@@ -5,7 +5,7 @@ permalink: "/releases/5_9/"
 draft: true
 enterprise: false
 date: 2021-01-27T15:45:07.023Z
-version: List [ 5.9 ]
+version: - 5.9
 tags:
   - v5.9
 ---
