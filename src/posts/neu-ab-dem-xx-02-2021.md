@@ -8,7 +8,7 @@ version: List [ 5.9 ]
 tags:
   - v5.9
 ---
-Q.wiki bekommt einen verbesserten Dokumentenkopf! Ab sofort finden Sie in Ihrem Dokumentenkopf eine vollständige Liste aller Freigebenden – bisher sehen Sie dort lediglich die Person, die das Dokument zuletzt freigegeben hat. Zusätzlich können Sie eine weitere Information, wie zum Beispiel die Schutzklasse, ergänzen lassen.   
+Q.wiki bekommt einen verbesserten Dokumentenkopf! Ab sofort finden Sie in Ihrem Dokumentenkopf eine vollständige Liste aller Freigebenden – bisher sehen Sie dort lediglich die Person, die das Dokument zuletzt freigegeben hat. Zusätzlich können Sie eine weitere Information, wie zum Beispiel die Schutzklasse, ergänzen lassen.
 
 Und auch optisch hat sich einiges getan: Die kompaktere Darstellung und das moderne Design sorgen für eine noch bessere Lesbarkeit. Der Inhalt und Umfang des Dokumentenkopfs bestehender Seiten verändert sich dadurch natürlich nicht. Ihre Seiten bleiben alle normkonform und es muss keine neue Revision angelegt werden! 
 
