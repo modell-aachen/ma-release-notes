@@ -18,7 +18,7 @@ Und auch optisch hat sich einiges getan: Die kompaktere Darstellung und das mode
 
 ![](/images/neuer-dokumentenkopf-mit-schutzklasse-freigegeben.png "Neuer Dokumentenkopf mit Liste aller Freigebenden und weiterer Information (Schutzklasse)")
 
-Bitte beachten Sie: 
+**Bitte beachten Sie:** 
 
 * Der Dokumentenkopf kann nur um eine weitere Information/Metadatum erweitert werden. Es ist nicht möglich mehrere Metadaten zu ergänzen.  
 * Die vollständige Auflistung aller Freigebenden wird erst bei einer erneuten Freigabe einer Seite im Dokumentenkopf sichtbar. Eine automatische Ergänzung der Freigebenden der bestehenden, freigegebenen Versionsstände wäre nicht normkonform. 
@@ -26,7 +26,7 @@ Bitte beachten Sie: 
 
 Möchten Sie Ihren Dokumentenkopf um eine weitere Information erweitern? Dann kontaktieren Sie unseren Support, um ein weiteres Metadatum zu definieren. Alle Infos dazu finden Sie unter [Anpassungsmöglichkeiten Metadaten ](https://releases.modell-aachen.de/faq/custom-metadata.html)
 
-Weitere Verbesserungen und behobene Fehler 
+## Weitere Verbesserungen und behobene Fehler 
 
 * Die Workflow-Verwaltung heißt jetzt Freigabe-Verwaltung. 
 * Im Versionsvergleich werden geänderte Dateien und deren Verlinkungen jetzt wieder farbig hervorgehoben. 
