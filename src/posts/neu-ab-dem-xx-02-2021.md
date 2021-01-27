@@ -12,7 +12,11 @@ Q.wiki bekommt einen verbesserten Dokumentenkopf! Ab sofort finden Sie in Ihrem 
 
 Und auch optisch hat sich einiges getan: Die kompaktere Darstellung und das moderne Design sorgen für eine noch bessere Lesbarkeit. Der Inhalt und Umfang des Dokumentenkopfs bestehender Seiten verändert sich dadurch natürlich nicht. Ihre Seiten bleiben alle normkonform und es muss keine neue Revision angelegt werden! 
 
- 
+![](/images/alter-dokumentenkopf-freigegeben.png "Alter Dokumentenkopf")
+
+![](/images/neuer-dokumentenkopf.png "Neuer Dokumentenkopf")
+
+![](/images/neuer-dokumentenkopf-mit-schutzklasse-freigegeben.png "Neuer Dokumentenkopf mit Liste aller Freigebenden und weiterer Information (Schutzklasse)")
 
 Bitte beachten Sie: 
 
