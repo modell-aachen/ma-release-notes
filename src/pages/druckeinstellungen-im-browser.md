@@ -15,4 +15,4 @@ Auch mit dem Browserdruck können Sie einfach PDF Dokumente erstellen. Wählen S
 
 Sie können ebenfalls beinflussen, ob Hintergrundfarben mitgedruckt werden. Dies hat unteranderem auch Einfluss darauf ob Markierungen von Text mitgedruckt werden oder nicht. Weiterhin können Sie auswählen, ob die Kopf- sowie Fußzeile mit Zusatzinformationen wie Seitenzahl, Druckdatum, Titel und Datei-URL mitgedruckt werden. Auch Skalierungen können beinflusst werden, falls Sie einen Ausdruck bewusst auf eine Seite skalieren möchten. Die entsprechenden Einstellungen finden Sie in der Regel versteckt hinter "Weitere Einstellungen":
 
-![](/images/2021-03-08-12_09_00-window.png "Weitere Druck-Einstellungen von Chrome")
+![](/images/2021-03-08-12_09_00-window.png "Weitere Druckeinstellungen von Chrome")
