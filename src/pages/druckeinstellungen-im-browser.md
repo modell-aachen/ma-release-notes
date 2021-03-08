@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: Druckeinstellungen im Browser
 permalink: /faq/print-preferences.html
 ---
-Damit Sie zukünftig noch bessere Druckergebnisse erhalten, verwendet Q.wiki jetzt die Druckfunktion Ihres Browsers. Mit den folgenden Tipps und Tricks gelingen Ihre Ausdrucke immer genau so, wie Sie sie sich wünschen!
+Damit Sie zukünftig noch bessere Druckergebnisse erhalten, verwendet Q.wiki jetzt die Druckfunktion Ihres Browsers. Mit den folgenden Tipps und Tricks gelingen Ihre Ausdrucke immer genau so, wie Sie es sich wünschen!
 
 ## PDF Dokumente erstellen
 
