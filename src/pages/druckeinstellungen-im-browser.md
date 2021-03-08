@@ -3,16 +3,16 @@ layout: layouts/page.njk
 title: Druckeinstellungen im Browser
 permalink: /faq/print-preferences.html
 ---
-Ab sofort verwendet Q.wiki die Browser-Druckfunktion, um Ausdrücke zu generieren oder auch PDF Dokumente von Q.wiki Seiten zu erstellen. Im Folgenden möchten wir Ihnen wichtige Tipps und Tricks zum Browserdruck mitgeben, damit Ihre Q.wiki Ausdrücke genau so aussehen wie Sie es sich wünschen!
+Damit Sie zukünftig noch bessere Druckergebnisse erhalten, verwendet Q.wiki jetzt die Druckfunktion Ihres Browsers. Mit den folgenden Tipps und Tricks gelingen Ihre Ausdrucke immer genau so, wie Sie sie sich wünschen!
 
 ## PDF Dokumente erstellen
 
-Auch mit dem Browserdruck können Sie einfach PDF Dokumente erstellen. Wählen Sie hierfür einfach den entsprechenden "Drucker" in den Einstellungen aus. Entweder es wird Ihnen direkt ein "Als PDF speichern" angeboten oder Sie können den Standard-Drucker "Microsoft Print to PDF" auswählen:
+Mit dem Browserdruck können Sie einfach PDF-Dokumente erstellen. Wählen Sie hierfür einfach den entsprechenden "Drucker" in den Einstellungen aus: Entweder wird Ihnen direkt die Option "Als PDF speichern" angeboten oder Sie wählen den Standard-Drucker "Microsoft Print to PDF" aus.
 
 ![](/images/2021-03-08-11_50_36-window.png "Druckerauswahl im Browserdruck von Chrome")
 
-## Weitere Druckeinstellungen
+## Weitere Druckeinstellungen verwenden
 
-Sie können ebenfalls beinflussen, ob Hintergrundfarben mitgedruckt werden. Dies hat unteranderem auch Einfluss darauf ob Markierungen von Text mitgedruckt werden oder nicht. Weiterhin können Sie auswählen, ob die Kopf- sowie Fußzeile mit Zusatzinformationen wie Seitenzahl, Druckdatum, Titel und Datei-URL mitgedruckt werden. Auch Skalierungen können beinflusst werden, falls Sie einen Ausdruck bewusst auf eine Seite skalieren möchten. Die entsprechenden Einstellungen finden Sie in der Regel versteckt hinter "Weitere Einstellungen":
+In den Druckeinstellungen können Sie unter "Weitere Einstellungen" auswählen, ob Hintergrundfarben mitgedruckt werden sollen. Dies hat unter anderem Einfluss darauf, ob Markierungen im Text mitgedruckt werden oder nicht. Zusätzlich können Sie entscheiden, ob die Kopf- sowie Fußzeile mit Zusatzinformationen wie Seitenzahl oder Druckdatum mitgedruckt werden. Auch die Skalierung können Sie beliebig einstellen, um Ihren Ausdruck beispielsweise auf eine Seite zu beschränken.
 
 ![](/images/2021-03-08-12_09_00-window.png "Weitere Druckeinstellungen von Chrome")
