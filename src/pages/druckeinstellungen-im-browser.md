@@ -16,3 +16,7 @@ Mit dem Browserdruck können Sie einfach PDF-Dokumente erstellen. Wählen Sie 
 In den Druckeinstellungen können Sie unter "Weitere Einstellungen" auswählen, ob Hintergrundfarben mitgedruckt werden sollen. Dies hat unter anderem Einfluss darauf, ob Markierungen im Text mitgedruckt werden oder nicht. Zusätzlich können Sie entscheiden, ob die Kopf- sowie Fußzeile mit Zusatzinformationen wie Seitenzahl oder Druckdatum mitgedruckt werden. Auch die Skalierung können Sie beliebig einstellen, um Ihren Ausdruck beispielsweise auf eine Seite zu beschränken.
 
 ![](/images/2021-03-08-12_09_00-window.png "Weitere Druckeinstellungen von Chrome")
+
+## Schriftart Kopf- und Fußzeile anpassen
+
+In den Browsereinstellungen können Sie außerdem die Schriftart der Kopf- sowie Fußzeile anpassen und diese damit deutlich ansehnlicher für Ihre Ausdrucke gestalten. Öffnen Sie dafür die Browsereinstellungen oben rechts und suchen dort nach "Schriftart".
