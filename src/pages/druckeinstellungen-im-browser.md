@@ -16,3 +16,9 @@ Mit dem Browserdruck können Sie einfach PDF-Dokumente erstellen. Wählen Sie 
 In den Druckeinstellungen können Sie unter "Weitere Einstellungen" auswählen, ob Hintergrundfarben mitgedruckt werden sollen. Dies hat unter anderem Einfluss darauf, ob Markierungen im Text mitgedruckt werden oder nicht. Zusätzlich können Sie entscheiden, ob die Kopf- sowie Fußzeile mit Zusatzinformationen wie Seitenzahl oder Druckdatum mitgedruckt werden. Auch die Skalierung können Sie beliebig einstellen, um Ihren Ausdruck beispielsweise auf eine Seite zu beschränken.
 
 ![](/images/2021-03-08-12_09_00-window.png "Weitere Druckeinstellungen von Chrome")
+
+## Schriftart Kopf- und Fußzeile anpassen
+
+Im Internet Explorer sowie Firefox ist die Standardschriftart für die Kopf und Fußzeile "Times New Roman" und harmoniert damit sehr schlecht mit der in Q.wiki gesetzten Schriftart. Dies ist jedoch anpassbar. In den Internetoptionen sowie Browsereinstellungen von Firefox können Sie die Schriftart der Kopf- sowie Fußzeile anpassen. Wir empfehlen Ihnen "Arial" zu verwenden. Öffnen Sie dafür die Internetoptionen bzw. Browsereinstellungen oben rechts.
+
+![](/images/2021-03-16-16_31_39-vorstellung-kvp-pitch-powerpoint.png "Anpassung der Standardschriftart im Internet Explorer (links) und Firefox (rechts)")
