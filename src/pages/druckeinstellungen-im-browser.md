@@ -19,4 +19,6 @@ In den Druckeinstellungen können Sie unter "Weitere Einstellungen" auswähl
 
 ## Schriftart Kopf- und Fußzeile anpassen
 
-In den Browsereinstellungen können Sie außerdem die Schriftart der Kopf- sowie Fußzeile anpassen und diese damit deutlich ansehnlicher für Ihre Ausdrucke gestalten. Öffnen Sie dafür die Browsereinstellungen oben rechts und suchen dort nach "Schriftart".
+Im Internet Explorer sowie Firefox ist die Standardschriftart für die Kopf und Fußzeile "Times New Roman" und harmoniert damit sehr schlecht mit der in Q.wiki gesetzten Schriftart. Dies ist jedoch anpassbar. In den Internetoptionen sowie Browsereinstellungen von Firefox können Sie die Schriftart der Kopf- sowie Fußzeile anpassen. Wir empfehlen Ihnen "Arial" zu verwenden. Öffnen Sie dafür die Internetoptionen bzw. Browsereinstellungen oben rechts.
+
+![](/images/2021-03-16-16_31_39-vorstellung-kvp-pitch-powerpoint.png "Anpassung der Standardschriftart im Internet Explorer (links) und Firefox (rechts)")
