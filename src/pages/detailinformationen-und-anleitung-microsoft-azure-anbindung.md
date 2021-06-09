@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: Detailinformationen und Anleitung Microsoft Azure Anbindung
 permalink: /faq/microsoft-azure.html
 ---
-**Achtung!** Diese Informationen und Anleitung dienen dem entsprechendem IT Fachpersonal. Sie unterstützen das selbstständige Einrichten der Anbindung von Q.wiki an ein Microsoft Azure Active Directory. Diese Seite entspricht dem aktuellem **Stand vom 09.06.2021** und wird nicht aktualisiert. Bei Unklarheiten verweisen wir auf unseren [Modell Aachen Support](https://www.modell-aachen.de/de/support) oder [offizielle Anleitungen von Microsoft](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list).
+**Achtung!** Diese Informationen und Anleitung dienen dem entsprechendem IT Fachpersonal. Sie unterstützen das selbstständige Einrichten der Anbindung von Q.wiki an ein Microsoft Azure Active Directory. Diese Seite entspricht dem aktuellem **Stand vom 09.06.2021** und wird nicht aktualisiert. Bei Unklarheiten verweisen wir auf unseren [Modell Aachen Support](https://www.modell-aachen.de/de/support) oder [offizielle Anleitungen von Microsoft](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list). Test
 
 ## Limitierungen
 
@@ -67,7 +67,7 @@ Damit das Microsoft Azure Active Directory mit Q.wiki verbunden werden kann, mus
 
 * **Create** anklicken
 
-## Provisionierung einstellen
+## Provisionierung einrichten
 
 * In der angelegten App **Provisioning** auswählen
 * **Get started** klicken[](https://storage.3.basecamp.com/4269870/blobs/1cb99588-c513-11eb-8d61-ecf4bbd72d92/download/Provisioning.png?attachment=true)
@@ -107,7 +107,7 @@ Damit das Microsoft Azure Active Directory mit Q.wiki verbunden werden kann, mus
 
 ![](/images/user_and_groups.png "Manage")
 
-## Authentifizierung einstellen
+## Authentifizierung einrichten
 
 * **All services** auswählen
 * **Azure Active Directory** auswählen[](https://storage.3.basecamp.com/4269870/blobs/2c7495e8-c515-11eb-9a04-ecf4bbd72a70/download/Azure_Active_Directory.png?attachment=true)
