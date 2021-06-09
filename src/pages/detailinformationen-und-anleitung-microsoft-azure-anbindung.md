@@ -31,16 +31,16 @@ Damit das Microsoft Azure Active Directory mit Q.wiki verbunden werden kann, mus
 
 ## Konfigurationsdialog in Q.wiki öffnen
 
-* Als KeyUser in Q.wiki anmelden
-* Unter KeyUser Werkzeuge die Nutzer-Verwaltung aufrufen
+* Als **KeyUser** in Q.wiki anmelden
+* Unter **KeyUser Werkzeuge** die **Nutzer-Verwaltung** aufrufen
 
 ![](/images/keyuserwerkzeuge.png)
 
-* Im Drei-Punkte-Menü auf Azure Active Directory anbinden klicken
+* Im Drei-Punkte-Menü auf **Azure Active Directory anbinden** klicken
 
 ![](/images/azure_ad_anbinden.png)
 
-* Konfigurationsdialog öffnet sich (wird im späteren Verlauf benötigt)
+* **Konfigurationsdialog** öffnet sich (**wird im späteren Verlauf benötigt**)
 
 ![](/images/self-service-maske.png "Konfigurationsdialog Azure Active Directory Anbindung")
 
@@ -85,7 +85,7 @@ Damit das Microsoft Azure Active Directory mit Q.wiki verbunden werden kann, mus
 ![](/images/test_connection.png)
 
 * **Save** klicken
-* Unter **Mappings** auf **Provision Azure Active Directory Groups** klicken, **Enabled** auf **No** setzen und **speichern[](https://storage.3.basecamp.com/4269870/blobs/09373c6c-c514-11eb-a714-ecf4bbd72a70/download/Provision_Azure_AD_Groups.png?attachment=true)**
+* Unter **Mappings** auf **Provision Azure Active Directory Groups** klicken, **Enabled** auf **No** setzen und **speichern**[](https://storage.3.basecamp.com/4269870/blobs/09373c6c-c514-11eb-a714-ecf4bbd72a70/download/Provision_Azure_AD_Groups.png?attachment=true)
 
 ![](/images/provision_azure_ad_groups.png)
 
