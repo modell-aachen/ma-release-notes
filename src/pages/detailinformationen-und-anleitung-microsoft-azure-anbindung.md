@@ -10,7 +10,7 @@ permalink: /faq/microsoft-azure.html
 * Es können mit Mircosoft Azure ausschließlich Nutzer synchronisiert werden, **eine Gruppen-Synchronisation wird aktuell nicht unterstützt.**
 * Des Weiteren kann und darf Microsoft Azure nicht zusammen mit anderen Providern (z.B. LDAP) konfiguriert werden. Lediglich der Topic Provider ist immer aktiv und erlaubt es, externe Nutzer in Qwiki zu registrieren. 
 * **Wird einmal das Azure AD genutzt, gibt es kein Zurück mehr.**
-* Es ist notwendig, dass jeder Nutzer eine einzigartige E-Mail-Adresse hat, bevor ein Azure AD angebunden werden kann. Der Konfigurationsdialog in Q.wiki weist darauf hin, falls diese Voraussetzung nicht erfüllt ist. Über die Q.wiki Nutzerverwaltung kann der Q.wiki KeyUser doppelt vergebene E-Mail-Adresse abändern.
+* Es ist notwendig, dass jeder Nutzer eine einzigartige E-Mail-Adresse hat, bevor ein Azure AD angebunden werden kann. Der Konfigurationsdialog in Q.wiki weist darauf hin, falls diese Voraussetzung nicht erfüllt ist. Über die Q.wiki Nutzerverwaltung kann der Q.wiki KeyUser doppelt vergebene E-Mail-Adressen abändern.
 * Für die Mitarbeiterprofile Applikation liefert die Microsoft Azure Anbindung lediglich folgende Werte:
 
   * email
@@ -21,11 +21,11 @@ permalink: /faq/microsoft-azure.html
 
 ## Migration vorhandener Topic/LDAP Nutzer
 
-Wird ein Azure AD angebunden und darüber die Nutzer provisioniert, werden automatisch alle vorhandenen Nutzer migriert, **die eine übereinstimmende Email Adresse haben**.\
+Wird ein Azure AD angebunden und darüber die Nutzer provisioniert, werden automatisch alle vorhandenen Nutzer migriert, **die eine übereinstimmende E-Mail Adresse haben**.\
 \
 Alle migrierten Nutzer werden anschließend entsprechend der Daten aus dem Azure AD aktualisiert und müssen von diesem Zeitpunkt an über das Azure AD verwaltet werden. Migrierte Topic User sind dann auch keine Topic User mehr: Ihr Q.wiki Passwort wird zurückgesetzt. Sie können sich nicht mehr mit ihrem Nutzernamen und Passwort direkt im Q.wiki anmelden, sondern müssen dies über den Office 365 Login-Button machen.
 
-## Voraussetzungen
+## Grundvoraussetzungen
 
 Damit das Microsoft Azure Active Directory mit Q.wiki verbunden werden kann, muss Q.wiki über https und der Q.wiki Endpunkt /api/v1/scim für das Azure AD erreichbar sein.
 
