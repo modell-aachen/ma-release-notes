@@ -34,11 +34,11 @@ Damit das Microsoft Azure Active Directory mit Q.wiki verbunden werden kann, mus
 * Als **KeyUser** in Q.wiki anmelden
 * Unter **KeyUser Werkzeuge** die **Nutzer-Verwaltung** aufrufen
 
-![](/images/keyuserwerkzeuge.png)
+![](/images/keyuserwerkzeuge.png "Nutzer-Verwaltung")
 
 * Im Drei-Punkte-Menü auf **Azure Active Directory anbinden** klicken
 
-![](/images/azure_ad_anbinden.png)
+![](/images/azure_ad_anbinden.png "Drei-Punkte-Menü")
 
 * **Konfigurationsdialog** öffnet sich (**wird im späteren Verlauf benötigt**)
 
