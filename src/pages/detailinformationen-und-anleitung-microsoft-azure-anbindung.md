@@ -154,3 +154,4 @@ Damit das Microsoft Azure Active Directory mit Q.wiki verbunden werden kann, mus
 
 * **Add a permission** klicken 
 * **Grant admin consent** klicken und mit **Yes** bestätigen
+* Vollständig ausgefüllten **Konfigurationsdialog in Q.wiki speichern**
