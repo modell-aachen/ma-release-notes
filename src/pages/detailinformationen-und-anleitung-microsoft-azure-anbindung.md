@@ -49,7 +49,7 @@ Damit das Microsoft Azure Active Directory mit Q.wiki verbunden werden kann, mus
 * **All Services** auswählen
 * **Enterprise applications** auswählen
 
-![](/images/enterprise_applications_auswählen.png)
+![](/images/enterprise_applications_auswaehlen.png)
 
 * **All Applications** auswählen
 * **New applications** auswählen
