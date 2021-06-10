@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
-title: Detailinformationen und Anleitung zur Microsoft Azure Anbindung
-permalink: /faq/microsoft-azure.html
+title: Detailinformationen und Anleitung zur Microsoft Azure AD Anbindung
+permalink: /faq/microsoft-azure-ad.html
 ---
 **Achtung!** Diese Informationen und Anleitung dienen dem entsprechendem IT Fachpersonal. Sie unterstützen das selbstständige Einrichten der Anbindung von Q.wiki an ein Microsoft Azure Active Directory. Diese Seite entspricht dem aktuellem **Stand vom 09.06.2021** und wird nicht aktualisiert. Bei Unklarheiten verweisen wir auf unseren [Modell Aachen Support](https://www.modell-aachen.de/de/support) oder [offizielle Anleitungen von Microsoft](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list). Test
 
