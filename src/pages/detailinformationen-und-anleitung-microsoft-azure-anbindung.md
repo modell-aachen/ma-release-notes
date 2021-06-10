@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: Detailinformationen und Anleitung Microsoft Azure Anbindung
+title: Detailinformationen und Anleitung zur Microsoft Azure Anbindung
 permalink: /faq/microsoft-azure.html
 ---
 **Achtung!** Diese Informationen und Anleitung dienen dem entsprechendem IT Fachpersonal. Sie unterstützen das selbstständige Einrichten der Anbindung von Q.wiki an ein Microsoft Azure Active Directory. Diese Seite entspricht dem aktuellem **Stand vom 09.06.2021** und wird nicht aktualisiert. Bei Unklarheiten verweisen wir auf unseren [Modell Aachen Support](https://www.modell-aachen.de/de/support) oder [offizielle Anleitungen von Microsoft](https://docs.microsoft.com/en-us/azure/active-directory/saas-apps/tutorial-list). Test
@@ -17,13 +17,13 @@ permalink: /faq/microsoft-azure.html
   * givenName
   * sn
   * telephoneNumber
-* Aus Sicherheitsgründen sind alle synchronisierten Nutzerdaten längenbeschränkt. Die maximale Zeichenanzahl beträgt 100. Nutzer, die einen Anzeigenamen mit mehr als 100 Zeichen haben, können daher nicht synchronisiert werden.
+* Aus Sicherheitsgründen sind alle synchronisierten Nutzerdaten längenbeschränkt. Die maximale Anzahl beträgt 100 Zeichen. Nutzer, die einen Anzeigenamen mit mehr als 100 Zeichen haben, können daher nicht synchronisiert werden.
 
 ## Migration vorhandener Topic/LDAP Nutzer
 
-Wird ein Azure AD angebunden und darüber die Nutzer provisioniert, werden automatisch alle vorhandenen Nutzer migriert, **die eine übereinstimmende E-Mail Adresse haben**.\
+Wird ein Azure AD angebunden und werden darüber die Nutzer provisioniert, werden automatisch alle vorhandenen Nutzer migriert, **die eine übereinstimmende E-Mail Adresse haben**.\
 \
-Alle migrierten Nutzer werden anschließend entsprechend der Daten aus dem Azure AD aktualisiert und müssen von diesem Zeitpunkt an über das Azure AD verwaltet werden. Migrierte Topic User sind dann auch keine Topic User mehr: Ihr Q.wiki Passwort wird zurückgesetzt. Sie können sich nicht mehr mit ihrem Nutzernamen und Passwort direkt im Q.wiki anmelden, sondern müssen dies über den Office 365 Login-Button machen.
+Alle migrierten Nutzer werden anschließend entsprechend der Daten aus dem Azure AD aktualisiert und müssen von diesem Zeitpunkt an über das Azure AD verwaltet werden. Migrierte Topic User sind dann auch keine Topic User mehr: Ihr Q.wiki Passwort wird zurückgesetzt. Sie können sich nicht mehr mit ihrem Nutzernamen und Passwort direkt in Q.wiki anmelden, sondern müssen dies über den Office 365 Login-Button machen.
 
 ## Grundvoraussetzungen
 
@@ -89,7 +89,7 @@ Damit das Microsoft Azure Active Directory mit Q.wiki verbunden werden kann, mus
 
 ![](/images/provision_azure_ad_groups.png "Mappings")
 
-* Unter **Settings** die **Notification Email** den Verantwortlichen eintragen, der bei Synchronisierungsproblemen benachrichtigt werden soll.
+* Unter **Settings** und **Notification Email** den Verantwortlichen eintragen, der bei Synchronisierungsproblemen benachrichtigt werden soll.
 * Bei **Scope** auswählen, ob alle Nutzer synchronisiert werden sollen oder nur die Nutzer, die explizit ausgewählt werden[](https://storage.3.basecamp.com/4269870/blobs/5789b0ac-c514-11eb-8da2-ecf4bbd72d92/download/Notification_Email.png?attachment=true).
 
 ![](/images/notification_email.png "Settings")
