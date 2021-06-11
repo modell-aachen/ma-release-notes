@@ -12,7 +12,7 @@ permalink: /faq/microsoft-azure-ad.html
 * **Wird das Microsoft Azure AD einmal genutzt, gibt es kein Zurück mehr.**
 * Es ist notwendig, dass jeder Nutzer eine einzigartige E-Mail-Adresse hat, bevor ein Microsoft Azure AD angebunden werden kann. Der Konfigurationsdialog in Q.wiki weist darauf hin, falls diese Voraussetzung nicht erfüllt ist. Über die Q.wiki Nutzerverwaltung kann der Q.wiki KeyUser doppelt vergebene E-Mail-Adressen abändern.
 * Aus Sicherheitsgründen sind alle synchronisierten Nutzerdaten längenbeschränkt. Die maximale Anzahl beträgt 100 Zeichen. Nutzer, die einen Anzeigenamen mit mehr als 100 Zeichen haben, können daher nicht synchronisiert werden.
-* Für die Mitarbeiterprofile Applikation **von Q.wiki Enterprise** liefert die Microsoft Azure AD Anbindung lediglich folgende Werte:
+* Für Kunden mit **Q.wiki Enterprise und Mitarbeiterapplikation** liefert die Microsoft Azure AD Anbindung lediglich folgende Werte:
 
   * email
   * givenName
