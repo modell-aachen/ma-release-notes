@@ -11,13 +11,13 @@ permalink: /faq/microsoft-azure-ad.html
 * Des Weiteren kann und darf das Microsoft Azure AD nicht zusammen mit anderen Providern (z.B. LDAP) konfiguriert werden. Lediglich der Topic Provider ist immer aktiv und erlaubt es externe Nutzer in Qwiki zu registrieren. 
 * **Wird das Microsoft Azure AD einmal genutzt, gibt es kein Zurück mehr.**
 * Es ist notwendig, dass jeder Nutzer eine einzigartige E-Mail-Adresse hat, bevor ein Microsoft Azure AD angebunden werden kann. Der Konfigurationsdialog in Q.wiki weist darauf hin, falls diese Voraussetzung nicht erfüllt ist. Über die Q.wiki Nutzerverwaltung kann der Q.wiki KeyUser doppelt vergebene E-Mail-Adressen abändern.
-* Für die Mitarbeiterprofile Applikation liefert die Microsoft Azure AD Anbindung lediglich folgende Werte:
+* Aus Sicherheitsgründen sind alle synchronisierten Nutzerdaten längenbeschränkt. Die maximale Anzahl beträgt 100 Zeichen. Nutzer, die einen Anzeigenamen mit mehr als 100 Zeichen haben, können daher nicht synchronisiert werden.
+* Für die Mitarbeiterprofile Applikation **von Q.wiki Enterprise** liefert die Microsoft Azure AD Anbindung lediglich folgende Werte:
 
   * email
   * givenName
   * sn
   * telephoneNumber
-* Aus Sicherheitsgründen sind alle synchronisierten Nutzerdaten längenbeschränkt. Die maximale Anzahl beträgt 100 Zeichen. Nutzer, die einen Anzeigenamen mit mehr als 100 Zeichen haben, können daher nicht synchronisiert werden.
 
 ## Migration vorhandener Topic/LDAP Nutzer
 
@@ -98,7 +98,7 @@ Damit das Microsoft Azure AD mit Q.wiki verbunden werden kann, muss Q.wiki über
 * **Save** klicken
 * Unter **Mappings** auf **Provision Azure Active Directory Users** klicken
 * Unter **Attribute Mappings** sind alle Attribute gelistet, die an Q.wiki gesendet werden. Die Standardeinstellung sollte bereits alle für Q.wiki notwendigen Attribute beinhalten. Im Folgenden sind alle Attribute aufgelistet, die von Q.wiki verwendet werden. Alle anderen Attribute können bedenkenlos gelöscht werden.
-* Die Attribute **name.givenName, name.familyName** und **phoneNumbers\[type eq "work"].value** sind optional und werden in Q.wiki nur für die Darstellung in der Mitarbeiterprofile Applikation verwendet.
+* Die Attribute **name.givenName, name.familyName** und **phoneNumbers\[type eq "work"].value** sind optional und werden **nur in Q.wiki Enterprise** für die Darstellung in der Mitarbeiterprofile Applikation verwendet.
 
 ![](/images/image.png "Attribute Mappings")
 
