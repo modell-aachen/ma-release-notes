@@ -141,6 +141,7 @@ Damit das Microsoft Azure AD mit Q.wiki verbunden werden kann, muss Q.wiki über
 * **Description** eingeben
 * **Add** klicken
 * Den **Value** des generierten Secrets kopieren und im **Q.wiki Konfigurationsdialog** einfügen.
+* Im **Q.wiki Konfigurationsdialog** auf **speichern** klicken
 * **API permissions** auswählen
 * **Add a permission** klicken
 * **Microsoft Graph** auswählen[](https://storage.3.basecamp.com/4269870/blobs/54aa99a8-c516-11eb-8afb-ecf4bbd6f7a8/download/Microsoft_Graph.png?attachment=true)
@@ -154,4 +155,4 @@ Damit das Microsoft Azure AD mit Q.wiki verbunden werden kann, muss Q.wiki über
 
 * **Add a permission** klicken 
 * **Grant admin consent** klicken und mit **Yes** bestätigen
-* Vollständig ausgefüllten **Konfigurationsdialog in Q.wiki speichern**
+* **Nach spätestens 40 Minuten** werden durch das Microsoft Azure AD die Nutzer in Q.wiki importiert
