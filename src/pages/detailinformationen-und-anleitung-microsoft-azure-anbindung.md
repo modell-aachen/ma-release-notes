@@ -90,7 +90,8 @@ Damit das Microsoft Azure AD mit Q.wiki verbunden werden kann, muss Q.wiki über
 ![](/images/provision_azure_ad_groups.png "Mappings")
 
 * Unter **Settings** und **Notification Email** den Verantwortlichen eintragen, der bei Synchronisierungsproblemen benachrichtigt werden soll.
-* Bei **Scope** auswählen, ob alle Nutzer synchronisiert werden sollen oder nur die Nutzer, die explizit ausgewählt werden[](https://storage.3.basecamp.com/4269870/blobs/5789b0ac-c514-11eb-8da2-ecf4bbd72d92/download/Notification_Email.png?attachment=true).
+* Bei **Scope** muss die Option "Nur zugewiesene Nutzer und Gruppen synchronisieren"explizit ausgewählt werden[]
+(https://storage.3.basecamp.com/4269870/blobs/5789b0ac-c514-11eb-8da2-ecf4bbd72d92/download/Notification_Email.png?attachment=true).
 
 ![](/images/notification_email.png "Settings")
 
@@ -102,8 +103,10 @@ Damit das Microsoft Azure AD mit Q.wiki verbunden werden kann, muss Q.wiki über
 
 ![](/images/image.png "Attribute Mappings")
 
-* Wurde der Scope so eingestellt, dass nur zugewiesene Nutzer synchronisiert werden sollen, müssen diese Nutzer noch unter **Users and groups** hinzugefügt werden.[](https://storage.3.basecamp.com/4269870/blobs/2b2318d2-bdf3-11eb-a702-8e17cd0352bb/download/image.png?attachment=true)
+* Nutzer und Gruppen müssen unter **Users and groups** hinzugefügt werden.[]
+(https://storage.3.basecamp.com/4269870/blobs/2b2318d2-bdf3-11eb-a702-8e17cd0352bb/download/image.png?attachment=true)
 * Dort können Gruppen und Nutzer hinzugefügt werden. Werden Gruppen hinzugefügt, dann werden zwar die Gruppen nicht synchronisiert, dafür aber alle **direkten** Mitglieder.
+* Sollen **alle** Benutzer provisioniert werden, kann die Standardgruppe "Alle Benutzer" verwendet werden.
 
 ![](/images/user_and_groups.png "Manage")
 
