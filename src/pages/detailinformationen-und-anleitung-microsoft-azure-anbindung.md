@@ -91,7 +91,7 @@ Damit das Microsoft Azure AD mit Q.wiki verbunden werden kann, muss Q.wiki über
 
 * Unter **Settings** und **Notification Email** den Verantwortlichen eintragen, der bei Synchronisierungsproblemen benachrichtigt werden soll.
 * Bei **Scope** muss die Option "Nur zugewiesene Nutzer und Gruppen synchronisieren"explizit ausgewählt werden[]
-* (https://storage.3.basecamp.com/4269870/blobs/5789b0ac-c514-11eb-8da2-ecf4bbd72d92/download/Notification_Email.png?attachment=true).
+(https://storage.3.basecamp.com/4269870/blobs/5789b0ac-c514-11eb-8da2-ecf4bbd72d92/download/Notification_Email.png?attachment=true).
 
 ![](/images/notification_email.png "Settings")
 
