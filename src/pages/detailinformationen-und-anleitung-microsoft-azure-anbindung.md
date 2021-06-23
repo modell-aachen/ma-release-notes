@@ -103,7 +103,8 @@ Damit das Microsoft Azure AD mit Q.wiki verbunden werden kann, muss Q.wiki über
 
 ![](/images/image.png "Attribute Mappings")
 
-* Nutzer und Gruppen müssen unter **Users and groups** hinzugefügt werden.[](https://storage.3.basecamp.com/4269870/blobs/2b2318d2-bdf3-11eb-a702-8e17cd0352bb/download/image.png?attachment=true)
+* Nutzer und Gruppen müssen unter **Users and groups** hinzugefügt werden.[]
+(https://storage.3.basecamp.com/4269870/blobs/2b2318d2-bdf3-11eb-a702-8e17cd0352bb/download/image.png?attachment=true)
 * Dort können Gruppen und Nutzer hinzugefügt werden. Werden Gruppen hinzugefügt, dann werden zwar die Gruppen nicht synchronisiert, dafür aber alle **direkten** Mitglieder.
 * Sollen **alle** Benutzer provisioniert werden, kann die Standardgruppe "Alle Benutzer" verwendet werden.
 
