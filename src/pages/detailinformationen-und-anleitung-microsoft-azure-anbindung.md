@@ -7,7 +7,7 @@ permalink: /faq/microsoft-azure-ad.html
 
 ## Limitierungen
 
-* Es können mit dem Mircosoft Azure AD ausschließlich Nutzer synchronisiert werden, **eine Gruppen-Synchronisation wird aktuell nicht unterstützt.**
+* Es können mit dem Mircosoft Azure AD ausschließlich einzelne Nutzer oder Gruppenmitglieder synchronisiert werden, **eine Gruppen-Synchronisation zur Verwendung der Gruppen in Q.wiki wird aktuell nicht unterstützt.** 
 * Des Weiteren kann und darf das Microsoft Azure AD nicht zusammen mit anderen Providern (z.B. LDAP) konfiguriert werden. Lediglich der Topic Provider ist immer aktiv und erlaubt es externe Nutzer in Qwiki zu registrieren. 
 * **Wird das Microsoft Azure AD einmal genutzt, gibt es kein Zurück mehr.**
 * Es ist notwendig, dass jeder Nutzer eine einzigartige E-Mail-Adresse hat, bevor ein Microsoft Azure AD angebunden werden kann. Der Konfigurationsdialog in Q.wiki weist darauf hin, falls diese Voraussetzung nicht erfüllt ist. Über die Q.wiki Nutzerverwaltung kann der Q.wiki KeyUser doppelt vergebene E-Mail-Adressen abändern.
