@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: App-Kennzahlen aktivieren und öffnen
 permalink: /faq/app-metrics.html
 ---
-Möchten Sie zukünftig App-Kennzahlen für eine mit dem Workflow Generator erstellte Applikation verwenden, so müssen Sie die Funktion unter Umständen zuerst aktivieren. Bei bestehenden Applikationen wird die Funktion jedoch im Zuge des Updates automatisch aktiviert. Für eine Aktivierung wechseln sie in die Konfiguration und wechseln Sie über den Reiter "Übersicht" und "Basis" auf die entsprechende Einstellung.
+Möchten Sie zukünftig App-Kennzahlen für eine mit dem Workflow Generator erstellte Applikation verwenden, so müssen Sie die Funktion unter Umständen zuerst aktivieren. Bei bestehenden Applikationen wird die Funktion jedoch im Zuge des Updates automatisch aktiviert. Für eine Aktivierung wechseln Sie in die Konfiguration und über den Reiter "Übersicht" und "Basis" auf die entsprechende Einstellung.
 
 ![](/images/2021-08-24-15_30_05-app-kennzahlen-aktivieren.png-greenshot-editor.png "App-Kennzahlen aktivieren/deaktivieren")
 
