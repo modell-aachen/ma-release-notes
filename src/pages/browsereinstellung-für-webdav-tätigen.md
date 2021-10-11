@@ -30,8 +30,10 @@ Hier können Sie nun die Zonenzuweisung aktivieren und für ihr jeweiliges Q.wik
 
 ![](/images/internetoptionen.png "Windows 10 Suche")
 
-Wechseln Sie auf den Reiter "Sicherheit" und prüfen Sie ob unten die Warnmeldung "Einige Einstellungen werden vom Systemadministrator verwaltet." angezeigt wird. Sehen Sie diese Warnmeldung ist dies ein Zeichen dafür, dass Ihre Internetoptionen durch eine Gruppenrichtlinie Ihrer zentralen IT verwaltet werden. Gehen Sie in diesem Fall mit dieser Anleitung auf Ihre IT zu und bitten um Anpassung der Gruppenrichtlinie (siehe oben).
+Wechseln Sie auf den Reiter **Sicherheit** und **prüfen Sie ob unten die Warnmeldung "Einige Einstellungen werden vom Systemadministrator verwaltet." angezeigt wird.** Sehen Sie diese Warnmeldung ist dies ein Zeichen dafür, dass Ihre Internetoptionen durch eine Gruppenrichtlinie Ihrer zentralen IT verwaltet werden. Gehen Sie in diesem Fall mit dieser Anleitung auf Ihre IT zu und bitten um Anpassung der Gruppenrichtlinie (siehe oben).
 
-Wird Ihnen die Warnmeldung nicht angezeigt wählen Sie "Lokales Intranet" aus und klicken anschließend auf "Sites".
+Wird Ihnen die Warnmeldung nicht angezeigt wählen Sie **Lokales Intranet** aus und klicken anschließend auf **Sites**.
 
 ![](/images/internetoptionen2.png "Internetoptionen")
+
+Hier können Sie nun "Intranet automatisch ermitteln" abwählen und **Erweitert** anklicken.
