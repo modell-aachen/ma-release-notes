@@ -20,7 +20,7 @@ Anschließend navigieren Sie über Computerkonfiguration > Administrative Vorlag
 
 ![](/images/gruppenrichtlinien.png "Editor für Gruppenrichtlinien")
 
-Hier können Sie nun die Zonenzuweisung aktivieren und für ihr jeweiliges Q.wiki ergänzen. Beachten Sie, dass hier ihre individuelle Adresse Ihres Q.wiki eingetragen werden muss. Als Wert hinterlegen Sie "1".
+Hier können Sie nun die Zonenzuweisung aktivieren und für ihr jeweiliges Q.wiki ergänzen. Beachten Sie, dass hier ihre individuelle Adresse Ihres Q.wiki eingetragen werden muss. Als Wert hinterlegen Sie "1". Bestätigen Sie im Anschluss alle Änderungen.
 
 ![](/images/liste-der-site-zu-zonenzuweisung.png "Liste der Site zu Zonenzuweisungen")
 
