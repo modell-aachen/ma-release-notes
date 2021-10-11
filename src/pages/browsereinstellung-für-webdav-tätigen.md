@@ -5,8 +5,8 @@ permalink: /faq/webdav.html
 ---
 Für WebDAV, d.h. zur direkten Bearbeitung von Office Dokumenten aus Q.wiki heraus, müssen zwei grundlegende Anforderungen außerhalb des Q.wiki erfüllt sein: Die verwendete **Office Version** muss **2010 oder neuer** sein. Und Q.wiki muss auf dem lokalen Computer als **sichere Website** bekannt sein. Letzteres lässt sich auf zwei Weisen konfigurieren:
 
-1. Zentrale Konfiguration aller Computer über die IT: Ausrollen/Änderung der sog. Gruppenrichtlinie
-2. Lokale Konfiguration eines Computers: Ergänzung von Q.wiki in die Sicherheitszone "lokalen Intranet"
+1. Zentrale Konfiguration aller Windows Betriebsysteme aller Computer über die IT: Ausrollen/Änderung der sog. Gruppenrichtlinie
+2. Lokale Konfiguration eines Windows Betriebssystems eines Computers: Ergänzung von Q.wiki in die Sicherheitszone "lokales Intranet"
 
 Beide Varianten werden Ihnen im Folgenden vorgestellt. Bitte beachten Sie jedoch, dass insbesondere die erste Variante nur durch Ihre zentrale IT durchgeführt werden kann.
 
