@@ -8,7 +8,7 @@ Für WebDAV, d.h. zur direkten Bearbeitung von Office Dokumenten aus Q.wiki hera
 1. Zentrale Konfiguration aller Computer über die IT: Ausrollen/Änderung der sog. Gruppenrichtlinie
 2. Lokale Konfiguration eines Computers: Ergänzung von Q.wiki in die Sicherheitszone "lokalen Intranet"
 
-Beide Varianten werden Ihnen im folgenden vorgestellt. Bitte beachten Sie jedoch, dass beide, insbesondere die erste Variante, unter Umständen nur durch Ihre zentrale IT durchgeführt werden kann.
+Beide Varianten werden Ihnen im folgenden vorgestellt. Bitte beachten Sie jedoch, dass beide, insbesondere die erste Variante nur durch Ihre zentrale IT durchgeführt werden kann.
 
 # Ausrollen/Änderung der Gruppenrichtlinie
 
