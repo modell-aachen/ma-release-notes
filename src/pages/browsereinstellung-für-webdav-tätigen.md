@@ -37,3 +37,9 @@ Wird Ihnen die Warnmeldung nicht angezeigt wählen Sie **Lokales Intranet** aus 
 ![](/images/internetoptionen2.png "Internetoptionen")
 
 Hier können Sie nun "Intranet automatisch ermitteln" abwählen und **Erweitert** anklicken.
+
+![](/images/lokales-intranet.png "Lokales Intranet")
+
+Anschließend können Sie Ihre Q.wiki URL in der Form "***kundenname*.qwikinow.de**" der Zone "Lokales Intranet" hinzufügen. Bestätigen Sie im Anschluss alle Änderungen.
+
+![](/images/lokales-intranet2.png "Websitezuweisung für lokales Intranet")
